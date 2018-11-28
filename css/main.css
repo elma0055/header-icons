@@ -9,13 +9,20 @@ html {
 nav {
   font-family: 'Merriweather', serif;
   background-color: #d05c2e;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #a63f38;
 }
 
 nav ul {
   list-style-type: none;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+  flex-wrap: nowrap;
   padding: .4rem 0;
+  border-top-width: 2px;
+  border-top-color: #a63f38;
+  border-top-style: solid;
 }
 
 nav li {
@@ -26,9 +33,6 @@ a {
   color: #fff;
   text-decoration: none;
   line-height: 1.5;
-  border-style: solid;
-  border-width: 3px;
-  border-color: #a63f38;
 }
 
 h1 {
